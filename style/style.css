@@ -1,0 +1,77 @@
+/* Abschnitt 1 */
+/* Aufgabe 1 */
+
+.eins {
+  border: 2px solid red;
+  padding: 50px;
+  margin: 50px;
+}
+.zwei {
+  border: 2px solid green;
+  padding: 50px;
+  margin: 50px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.drei {
+  border: 2px solid blue;
+  padding: 50px;
+  margin: 50px;
+}
+
+/* Aufgabe 2 */
+
+.parent {
+  position: relative;
+  height: 200px;
+  border: 2px solid red;
+}
+
+.child {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: burlywood;
+  bottom: 0;
+  right: 0;
+}
+
+/* Aufgabe 3 */
+
+/*1. header und main hinzugefügt */
+/* Da ich nun den header mit css mache würde dies normalerweise ganz oben in der css Datei sein. */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: cornflowerblue;
+}
+
+main {
+  margin: 50px;
+  padding: 50px;
+}
+
+/* Ich sehe nun oben links kleben bleibt. Beim scrollen sehe ich dann wie der Hintergrund leicht transparent wird. */
+
+.antwort {
+  font-weight: bold;
+  font-size: medium;
+}
+
+/* Zusatz: Sticky nutzen */
+
+h3 {
+  position: sticky;
+  top: 125px;
+}
+
+/*Was ist der Unterschied (sichtbar) zwischen sticky und fixed?
+fixed: schwebt & klebt von Anfang an, wiird meist für nav genutzt.
+sticky: schwebt & klebt erst wenn ich weiter scrolle und der Ausgangspunkt nicht mehr auf dem Bildschirm zu sehen ist. */
