@@ -51,6 +51,7 @@ header {
   padding: 0;
   border: 0;
   background-color: cornflowerblue;
+  z-index: 3;
 }
 
 main {
